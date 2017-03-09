@@ -1,0 +1,26 @@
+<html>
+<body>
+</body>
+</html>
+<script type="text/javascript">
+
+var sayHi = function() {
+  alert('hi');
+}
+
+d = document.createElement('select');
+d.setAttribute('id', 'd');
+o = document.createElement('option');
+o.setAttribute('value', 'nacker');
+t = document.createTextNode('nacker');
+o.appendChild(t);
+d.appendChild(o);
+o = document.createElement('option');
+o.setAttribute('value', 'foo');
+t = document.createTextNode('foo');
+o.appendChild(t);
+d.appendChild(o);
+d.addEventListener('change', function() {alert('no');}, false);
+d.setAttribute('style', 'width:50px');
+document.body.appendChild(d);
+</script>
