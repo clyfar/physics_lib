@@ -428,8 +428,8 @@ function startDrag(e) {
 
 function stopDrag() {  
   incontainer = false;
-  canvas.removeEventListener('mousemove');
-  canvas.removeEventListener('mouseup');
+  canvas.removeEventListener('mousemove', startDrag);
+  canvas.removeEventListener('mouseup', startDrag);
   dropBall();
 }
 
