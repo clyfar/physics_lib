@@ -8,7 +8,7 @@ var canvas;
 var WIDTH = 1200;
 var HEIGHT = 800;
 var radius = 30;
-var gravity = 1.2;
+var gravity = 1.1;
 var friction = 0.984;
 var offset = radius;
 var xdamp = 0.5;
