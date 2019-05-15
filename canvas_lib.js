@@ -5,8 +5,8 @@
 
 var context;
 var canvas;
-var WIDTH = 500;
-var HEIGHT = 500;
+var WIDTH = 1200;
+var HEIGHT = 800;
 var radius = 30;
 var gravity = 1.2;
 var friction = 0.984;
